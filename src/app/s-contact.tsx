@@ -1,10 +1,5 @@
 import Link from 'next/link';
 import { MapPin, Phone, Mail, Clock} from 'lucide-react';
-import { createIcons, icons } from 'lucide';
-
-createIcons({ icons });
-
-document.body.append('<i data-lucide="instagram"></i>');  
 
 export default function HomeContact() {
     return (
