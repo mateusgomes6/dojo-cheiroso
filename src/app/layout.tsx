@@ -1,7 +1,7 @@
 import type React from "react"
 import "@/app/globals.css"
-import { Navbar } from "@/components/Navbar";
-import { Footer } from "@/components/Footer";
+import Navbar from "@/app/components/global/navbar";
+import Footer from "@/app/components/global/footer";
 
 export const metadata = {
   title: "Dojo Thiago Cheiroso - Treinamento de Artes Marciais",
