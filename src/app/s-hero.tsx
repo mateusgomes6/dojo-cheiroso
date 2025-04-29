@@ -8,7 +8,7 @@ export default function HomeHero() {
         <section className="relative h-[500px] md:h-[600px] overflow-hidden">
           {/* Imagem de fundo com overlay escuro */}
           <div className="absolute inset-0 bg-black/70">
-            {/* Aqui você vai adicionar sua imagem de fundo */}
+            <Image src="/placeholder.svg?height=600&width=1600" alt="Fundo Dojo" fill className="object-cover" priority />
             <Image
               src="/placeholder.svg?height=600&width=1600"
               alt="Fundo Dojo"
@@ -32,22 +32,22 @@ export default function HomeHero() {
             </div>
 
             {/* Título */}
-            <h1 className="text-4xl md:text-5xl font-bold text-white mb-2">Dojo Thiago Cheiroso</h1>
+            <h1 className="text-4xl md:text-5xl font-bold text-white mb-2">Dojô Thiago Cheiroso</h1>
 
             {/* Endereço */}
-            <p className="text-lg text-zinc-200 mb-6">Rua das Artes Marciais, 123, Cidade, Estado</p>
+            <p className="text-lg text-zinc-200 mb-6">R. Álvaro de Brito, 946 - Jardins, Aracaju - SE, 49026-030</p>
 
             {/* Botões */}
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button className="bg-yellow-500 hover:bg-yellow-600 text-black px-6 py-2 text-lg">
-                Comece sua jornada nas artes marciais
-              </Button>
+              <div className="bg-yellow-500 hover:bg-yellow-600 text-black px-6 py-2 text-lg">
+                Agende sua aula experimental e comece sua jornada nas artes marciais
+              </div>
               <Link
-                href="https://wa.me/5512345678901?text=Olá!%20Gostaria%20de%20informações%20sobre%20as%20aulas%20do%20Dojo%20Thiago%20Cheiroso."
+                href="https://wa.me/557999226766?text=Olá!%20Gostaria%20de%20informações%20sobre%20as%20aulas%20do%20Dojo%20Thiago%20Cheiroso."
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Button className="bg-green-600 hover:bg-green-700 text-white px-6 py-2 text-lg flex items-center gap-2">
+                <Button className="bg-green-500 hover:bg-green-700 text-white px-6 py-2 text-lg flex items-center gap-2">
                   <Phone className="h-5 w-5" />
                   Fale conosco
                 </Button>
