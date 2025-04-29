@@ -8,9 +8,8 @@ export default function HomeHero() {
         <section className="relative h-[500px] md:h-[600px] overflow-hidden">
           {/* Imagem de fundo com overlay escuro */}
           <div className="absolute inset-0 bg-black/70">
-            <Image src="/placeholder.svg?height=600&width=1600" alt="Fundo Dojo" fill className="object-cover" priority />
             <Image
-              src="/placeholder.svg?height=600&width=1600"
+              src="/foto2-dojo.png"
               alt="Fundo Dojo"
               fill
               className="object-cover opacity-50"
@@ -39,7 +38,7 @@ export default function HomeHero() {
 
             {/* Botões */}
             <div className="flex flex-col sm:flex-row gap-4">
-              <div className="bg-yellow-500 hover:bg-yellow-600 text-black px-6 py-2 text-lg">
+              <div className="bg-yellow-300 hover:bg-yellow-600 text-black px-6 py-2 text-lg">
                 Agende sua aula experimental e comece sua jornada nas artes marciais
               </div>
               <Link
@@ -47,7 +46,7 @@ export default function HomeHero() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Button className="bg-green-500 hover:bg-green-700 text-white px-6 py-2 text-lg flex items-center gap-2">
+                <Button className="bg-green-500 hover:bg-green-700 text-white px-8 py-6 text-lg flex items-center gap-2">
                   <Phone className="h-5 w-5" />
                   Fale conosco
                 </Button>

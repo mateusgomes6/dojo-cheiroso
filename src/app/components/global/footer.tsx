@@ -34,23 +34,6 @@ export default function Footer() {
                 </Link>
               </nav>
             </div>
-            <div className="space-y-4">
-              <h3 className="text-lg font-bold text-white">Programas</h3>
-              <nav className="flex flex-col space-y-2">
-                <Link href="#" className="text-sm text-zinc-400 hover:text-yellow-400 transition-colors">
-                  Muay Thai
-                </Link>
-                <Link href="#" className="text-sm text-zinc-400 hover:text-yellow-400 transition-colors">
-                  Jiu Jitsu
-                </Link>
-                <Link href="#" className="text-sm text-zinc-400 hover:text-yellow-400 transition-colors">
-                  Aulas Particulares
-                </Link>
-                <Link href="#" className="text-sm text-zinc-400 hover:text-yellow-400 transition-colors">
-                  Equipe de Competição
-                </Link>
-              </nav>
-            </div>
           </div>
           <div className="mt-8 border-t border-yellow-500/20 pt-8 text-center">
             <p className="text-xs text-zinc-400">
