@@ -31,11 +31,13 @@ export default function Navbar() {
             </Link>
           </nav>
           <div className="flex items-center gap-4">
+           <Link href="https://wa.me/557999226766?text=Olá!%20Gostaria%20de%20informações%20sobre%20as%20aulas%20do%20Dojo%20Thiago%20Cheiroso." target="_blank" rel="noopener noreferrer">
             <Button className="hidden md:flex bg-yellow-300 hover:bg-yellow-600 text-black">Matricule-se</Button>
             <Button variant="ghost" size="icon" className="md:hidden text-white hover:bg-neutral-50">
               <Menu className="h-6 w-6" />
               <span className="sr-only">Menu</span>
             </Button>
+           </Link>
           </div>
         </div>
       </header>

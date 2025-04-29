@@ -25,8 +25,7 @@ export default function HomeFeatures() {
                 </div>
                 <h3 className="text-xl font-bold text-white">Instrução Especializada</h3>
                 <p className="text-zinc-400">
-                  Aprenda com o Mestre Thiago Cheiroso e sua equipe de instrutores certificados com décadas de
-                  experiência.
+                  Aprenda com o Mestre Thiago Cheiroso com teórica educativa e prática funcional para se desenvolver.
                 </p>
               </div>
               <div className="flex flex-col items-center space-y-4 rounded-lg border border-yellow-500/20 bg-zinc-950 p-6 text-center h-full">
