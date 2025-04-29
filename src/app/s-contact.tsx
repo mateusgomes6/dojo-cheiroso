@@ -1,5 +1,6 @@
 import Link from 'next/link';
-import { MapPin, Phone, Mail, Clock} from 'lucide-react';
+import { MapPin, Phone, Clock} from 'lucide-react';
+
 
 export default function HomeContact() {
     return (
@@ -22,22 +23,18 @@ export default function HomeContact() {
                 <div className="space-y-4">
                   <div className="flex items-center gap-3">
                     <MapPin className="h-5 w-5 text-yellow-400" />
-                    <p className="text-zinc-300">Rua das Artes Marciais, 123, Cidade, Estado 12345</p>
+                    <p className="text-zinc-300">R. Álvaro de Brito, 946 - Jardins, Aracaju - SE, 49026-030</p>
                   </div>
                   <div className="flex items-center gap-3">
                     <Phone className="h-5 w-5 text-yellow-400" />
-                    <p className="text-zinc-300">(12) 3456-7890</p>
-                  </div>
-                  <div className="flex items-center gap-3">
-                    <Mail className="h-5 w-5 text-yellow-400" />
-                    <p className="text-zinc-300">contato@dojothiagocheiroso.com</p>
+                    <p className="text-zinc-300">(79) 9 9922-7222</p>
                   </div>
                   <div className="flex items-center gap-3">
                     <Clock className="h-5 w-5 text-yellow-400" />
                     <div>
-                      <p className="text-zinc-300">Segunda - Sexta: 06:00 - 21:30</p>
-                      <p className="text-zinc-300">Sábado: 08:00 - 12:00</p>
-                      <p className="text-zinc-300">Domingo: Fechado</p>
+                      <p className="text-zinc-300">Segunda - Quinta: 17:10 - 21:30</p>
+                      <p className="text-zinc-300">Sexta: 17:10 - 20:00</p>
+                      <p className="text-zinc-300">Sábado e Domingo: Fechado</p>
                     </div>
                   </div>
                 </div>
@@ -55,7 +52,6 @@ export default function HomeContact() {
                     href="#"
                     className="rounded-full bg-zinc-800 p-2 text-white hover:bg-yellow-500 hover:text-black transition-colors"
                   >
-                    <i data-lucide="instagram" className="h-5 w-5" />
                     <span className="sr-only">Instagram</span>
                   </Link>
                 </div>
@@ -65,8 +61,8 @@ export default function HomeContact() {
                   <div className="absolute top-0 left-0 w-full bg-yellow-500/80 text-black p-3 text-center font-medium z-10">
                     Localização do Dojo Thiago Cheiroso
                   </div>
-                  <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.356219550619!2d-43.2230!3d-22.9030!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjLCsDU0JzEwLjgiUyA0M8KwMTMnMjIuOCJX!5e0!3m2!1spt-BR!2sbr!4v1619712345678!5m2!1spt-BR!2sbr"
+                  <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3917.359111350353!2d-37.0538612!3d-10.9362224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71ab39307515555%3A0x47faf541584d0e41!2sDoj%C3%B4%20-%20Thiago%20Cheiroso!5e0!3m2!1spt-BR!2sbr!4v1745964444552!5m2!1spt-BR!2sbr"
                     width="100%"
                     height="450"
                     style={{ border: 0 }}
