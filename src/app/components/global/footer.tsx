@@ -17,7 +17,7 @@ export default function Footer() {
                 />
               </Link>
               <p className="text-sm text-zinc-400">
-                Capacitando indivíduos através do treinamento em artes marciais e desenvolvimento pessoal desde 2005.
+                Capacitando indivíduos mentalmente e fisicamente através do treinamento em artes marciais e desenvolvimento pessoal.
               </p>
             </div>
             <div className="space-y-4">
@@ -30,7 +30,10 @@ export default function Footer() {
                   Horários
                 </Link>
                 <Link href="#teams" className="text-sm text-zinc-400 hover:text-yellow-400 transition-colors">
-                  Nossas Equipes
+                  Artes marciais
+                </Link>
+                <Link href="#contact" className="text-sm text-zinc-400 hover:text-yellow-400 transition-colors">
+                  Contato
                 </Link>
               </nav>
             </div>
