@@ -1,5 +1,5 @@
-import type React from "react"
-import "@/app/globals.css"
+import type React from "react";
+import "@/app/globals.css";
 import Navbar from "@/app/components/global/navbar";
 import Footer from "@/app/components/global/footer";
 
