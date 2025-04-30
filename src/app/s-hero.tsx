@@ -39,7 +39,7 @@ export default function HomeHero() {
             {/* Botões */}
             <div className="flex flex-col sm:flex-row gap-4">
               <div className="bg-yellow-300 hover:bg-yellow-600 text-black px-6 py-2 text-lg">
-                Agende sua aula experimental e comece sua jornada nas artes marciais
+                Comece sua jornada nas artes marciais
               </div>
               <Link
                 href="https://wa.me/557999226766?text=Olá!%20Gostaria%20de%20informações%20sobre%20as%20aulas%20do%20Dojo%20Thiago%20Cheiroso."
