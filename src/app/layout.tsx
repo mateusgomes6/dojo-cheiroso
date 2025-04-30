@@ -16,6 +16,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-BR" suppressHydrationWarning>
+    <link rel="icon" href="/logo-dojo.jpg"/>
       <body>
         <Navbar />
           {children}
