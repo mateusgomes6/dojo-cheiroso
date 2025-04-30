@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { MapPin, Phone, Clock} from 'lucide-react';
-
+import { FaInstagram } from "react-icons/fa";
 
 export default function HomeContact() {
     return (
@@ -49,9 +49,9 @@ export default function HomeContact() {
                     <span className="sr-only">WhatsApp</span>
                   </Link>
                   <Link
-                    href="#"
-                    className="rounded-full bg-zinc-800 p-2 text-white hover:bg-yellow-500 hover:text-black transition-colors"
-                  >
+                    href="https://www.instagram.com/dojo.tc?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                    className="rounded-full bg-zinc-800 p-2 text-white hover:bg-yellow-500 hover:text-black transition-colors">
+                    <FaInstagram className="h-5 w-5" />
                     <span className="sr-only">Instagram</span>
                   </Link>
                 </div>
