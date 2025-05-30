@@ -6,7 +6,6 @@ import { Button } from '@/app/components/ui/button';
 export default function HomeHero() {
     return (
         <section className="relative h-[500px] md:h-[600px] overflow-hidden">
-          {/* Imagem de fundo com overlay escuro */}
           <div className="absolute inset-0 bg-black/70">
             <Image
               src="/foto2-dojo.png"
@@ -17,9 +16,7 @@ export default function HomeHero() {
             />
           </div>
 
-          {/* Conteúdo centralizado */}
           <div className="relative h-full flex flex-col items-center justify-center text-center px-4">
-            {/* Logo circular */}
             <div className="w-32 h-32 md:w-40 md:h-40 rounded-full bg-black/40 p-2 mb-6 overflow-hidden flex items-center justify-center">
               <Image
                 src="/logo-dojo.jpg"
@@ -30,13 +27,10 @@ export default function HomeHero() {
               />
             </div>
 
-            {/* Título */}
             <h1 className="text-4xl md:text-5xl font-bold text-white mb-2">Dojô Thiago Cheiroso</h1>
 
-            {/* Endereço */}
             <p className="text-lg text-zinc-200 mb-6">R. Álvaro de Brito, 946 - Jardins, Aracaju - SE, 49026-030</p>
-
-            {/* Botões */}
+              
             <div className="flex flex-col sm:flex-row gap-4">
               <div className="bg-yellow-300 hover:bg-yellow-600 text-black px-6 py-2 text-lg">
                 Comece sua jornada nas artes marciais
